@@ -11,7 +11,7 @@ The data consists of information on 22,886 CN1R compounds and other information 
 Features of these compounds were extracted from Pubchem database with the use of webscrapers. 
 The features use include: MolecularWeight,XLogP, ExactMass, MonoisotopicMass, TPSA, Complexity, Charge,HBondDonorCount, HBondAcceptorCount, RotatableBondCount,HeavyAtomCount, IsotopeAtomCount, AtomStereoCount,DefinedAtomStereoCount, UndefinedAtomStereoCount, BondStereoCount,DefinedBondStereoCount, UndefinedBondStereoCount, CovalentUnitCount,Volume3D, XStericQuadrupole3D, YStericQuadrupole3D,ZStericQuadrupole3D, FeatureCount3D, FeatureAcceptorCount3D,FeatureDonorCount3D, FeatureAnionCount3D,FeatureCationCount3D,FeatureRingCount3D', FeatureHydrophobeCount3D, ConformerModelRMSD3D,EffectiveRotorCount3D, ConformerCount3D
 
-In addition to these chemical features, Morgan fingerprints were also generated for each compound to introduce structural information in the model
+> In addition to these chemical features, Morgan fingerprints were also generated for each compound to introduce structural information in the model
 ## Tools/Skills Used
 -Google colab
 
