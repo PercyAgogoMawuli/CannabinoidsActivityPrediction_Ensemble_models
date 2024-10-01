@@ -6,7 +6,7 @@ CN1R is a G protein-coupled receptor that plays a crucial role in regulating var
 
 
 ## Dataset
-The data consists of information on 22,886 CN1R compounds and other information related to the drug compounds including their bioactivities, cid, compound name,sid, aid and geneid, which were obtained from the PubChem database. In this project, the first 100 CN1R compounds were used in model building.The dataset can be downloaded [here](https://pubchem.ncbi.nlm.nih.gov/gene/1268#section=Chemicals-and-Bioactivities)
+The data consists of information on 22,886 CN1R compounds and other information related to the drug compounds including their bioactivities, cid, compound name,sid, aid and geneid, which were obtained from the PubChem database. In this project, the first 200 CN1R compounds were used in model building.The dataset can be downloaded [here](https://pubchem.ncbi.nlm.nih.gov/gene/1268#section=Chemicals-and-Bioactivities)
 
 Features of these compounds were extracted from Pubchem database with the use of webscrapers. 
 The features use include: MolecularWeight,XLogP, ExactMass, MonoisotopicMass, TPSA, Complexity, Charge,HBondDonorCount, HBondAcceptorCount, RotatableBondCount,HeavyAtomCount, IsotopeAtomCount, AtomStereoCount,DefinedAtomStereoCount, UndefinedAtomStereoCount, BondStereoCount,DefinedBondStereoCount, UndefinedBondStereoCount, CovalentUnitCount,Volume3D, XStericQuadrupole3D, YStericQuadrupole3D,ZStericQuadrupole3D, FeatureCount3D, FeatureAcceptorCount3D,FeatureDonorCount3D, FeatureAnionCount3D,FeatureCationCount3D,FeatureRingCount3D', FeatureHydrophobeCount3D, ConformerModelRMSD3D,EffectiveRotorCount3D, ConformerCount3D
